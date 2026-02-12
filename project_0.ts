@@ -3,9 +3,18 @@
 
 const nombre = 'nicolas';
 
-function saludo(nombre:string):
-	string{return `hola ${nombre} como estas?`;}
+console.log(nombre)
 
+function saludo(nombre:string):
+	string{return `hola ${nombre} `;}
+
+
+function suma(a:number, b:number): number{
+	const val = a + b
+	console.log(val) //importante aprendizaje, al igual que en python, nuestro print here es el console.log y nuesto return es el mismo 'return'
+}
+
+suma(1,2)
 
 
 console.log(saludo(nombre))
